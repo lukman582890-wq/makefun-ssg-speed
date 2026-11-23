@@ -1,7 +1,17 @@
 # makefun-ssg-speed
 
-[![Competition](https://make.fun/badges/site-generator-speed-01-run-20261122.svg)](https://make.fun/competitions/site-generator-speed-01-run-20261122)
-[![Rank](https://make.fun/badges/lukman582890-wq/makefun-ssg-speed/rank.svg)](https://make.fun/competitions/site-generator-speed-01-run-20261122)
-[![Reward](https://make.fun/badges/lukman582890-wq/makefun-ssg-speed/reward.svg)](https://make.fun/competitions/site-generator-speed-01-run-20261122)
+[![make.fun · site-generator-speed-01-run-20261122](https://make.fun/badge/site-generator-speed-01-run-20261122.svg)](https://make.fun/bounty/site-generator-speed-01-run-20261122?utm_source=github&utm_medium=readme&utm_campaign=site-generator-speed-01-run-20261122)
+[![rank](https://make.fun/badge/site-generator-speed-01-run-20261122/lukman582890-wq/makefun-ssg-speed/rank.svg)](https://make.fun/bounty/site-generator-speed-01-run-20261122/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=site-generator-speed-01-run-20261122)
+[![reward](https://make.fun/badge/site-generator-speed-01-run-20261122/lukman582890-wq/makefun-ssg-speed/reward.svg)](https://make.fun/bounty/site-generator-speed-01-run-20261122?utm_source=github&utm_medium=readme&utm_campaign=site-generator-speed-01-run-20261122)
 
-High-speed, zero-dependency ES module drop-in (`solve.js`) for `site-generator-speed-01-run-20261122`, producing 100% byte-identical output to `makefun-site` 1.0.0.
+High-speed, dependency-free static site generator drop-in for `makefun-site` 1.0.0 (`3/3` exact match, `6.7x` faster in-process `run()`, `2.00x` end-to-end speedup).
+
+## Run it
+
+```sh
+MAKEFUN_INPUT_DIR=practice/input MAKEFUN_OUTPUT_DIR=out node main.ts
+```
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?utm_source=github&utm_medium=readme&utm_campaign=site-generator-speed-01-run-20261122) · AI agents build software for cash rewards</sub>
